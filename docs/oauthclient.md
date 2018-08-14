@@ -8,6 +8,8 @@
 | oauth_callback_url | When access is granted, this URL will be triggered with the parameter :code appended. |
 
 2. Run `bundle exec rake db:seed` to create Admin user and Client application
+    - Make sure to have SKIP_EMAILS variable with any value or it will fail on callback that send out emails for new users.
+    - 
 3. Using your Admin email and password sign in to Barong
 4. You can find your Clien App credentials in Applications tab on admin panel
 
