@@ -11,3 +11,4 @@ services:
     environment:
       - '*'
       - RAILS_LOG_TO_STDOUT=true
+      - SENTRY_ENV=production
